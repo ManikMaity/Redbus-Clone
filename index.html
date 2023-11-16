@@ -80,5 +80,52 @@
 
     </nav>
     <!-- ------------------------navbar section ends here ----------------------- -->
+
+    <!-- --------------------------- hero section starts here ---------------------------  -->
+    <section class="h-[32rem] bg-main-color bg-[url('./assets/hero-img.png')] bg-center  bg-no-repeat bg-cover flex justify-center">
+        <div class="flex flex-col items-center w-full max-w-[1400px]">
+            <h1 class="text-2xl mx-4 md:text-[2rem] text-white font-bold mt-16 mb-4 text-center">India's No. 1 Online Bus Ticket Booking Site</h1>
+
+
+            <!-- travel search section sharts here -->
+            <div class="w-[80%] lg:h-24 mt-4 bg-white cursor-pointer flex flex-col lg:flex-row rounded-3xl overflow-hidden">
+                <!-- travel search left side  -->
+                <div class="h-full flex flex-col sm:flex-row items-center justify-center lg:w-1/2">
+                    <div class="h-full border-b sm:border-r border-gray-300 w-full sm:w-auto">
+                        <div class="px-7 py-8 flex items-center h-full gap-3">
+                            <i class="fa-solid fa-bus-simple text-gray-500 text-2xl"></i>
+                            <input class="outline-none w-full" type="text" name="" id="" placeholder="From">
+                        </div>
+                    </div>
+                    <div class="w-10 h-10 bg-white rounded-full grid place-content-center absolute border border-gray-300">
+                        <i class="fa-solid fa-arrows-turn-to-dots text-gray-500 text-xl"></i>
+                    </div>
+                    <div class="h-full border-b sm:border-r border-gray-300 w-full sm:w-auto">
+                        <div class="px-7 py-8 flex items-center h-full gap-3">
+                            <i class="fa-solid fa-person-walking-luggage text-gray-500 text-2xl"></i>
+                            <input class="outline-none w-full" type="text" name="" id="" placeholder="To">
+                        </div>
+                    </div>
+                </div>
+                <!-- travel search right section  -->
+                <div class="flex bg-white flex-col sm:flex-row lg:w-1/2">
+                    <div class="h-full border-b sm:border-r border-gray-300 sm:w-1/2 w-full">
+                        <div class="px-7 py-8 flex items-center h-full gap-3 group relative pr-12">
+                            <i class="fa-solid fa-calendar-days text-gray-500 text-2xl"></i>
+                            <input class="outline-none opacity-0 scale-[3] h-14 w-[30px] absolute left-14 z-10" type="date" name="" id="" placeholder="To">
+                            <p class="text-gray-400">Date</p>
+                        </div>
+                    </div>
+                    <button class=" px-7 py-8 flex items-center justify-center bg-main-color whitespace-nowrap text-white font-bold w-full sm:w-1/2 text-center">
+                       SEARCH BUSES
+                    </button>
+                </div>
+
+            </div>
+            <!-- travel search section ends here -->
+        </div>
+    </section>
+    <!-- --------------------------- hero section ends here ---------------------------  -->
+
 </body>
 </html>
