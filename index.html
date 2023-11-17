@@ -14,7 +14,7 @@
 <body class="font-Mont">
 
     <!-- ------------------------navbar section starts here ----------------------- -->
-    <nav class="px-4 md:px-14 py-1 md:py-3 flex text-xs md:text-base font-normal items-center justify-between sticky top-0 bg-white z-20">
+    <nav class="px-4 md:px-14 py-1 md:py-3 flex text-xs md:text-base font-normal items-center justify-between sticky top-0 bg-white z-20 drop-shadow-xl">
 
         <!-- navbar left part stats here -->
         <div class="flex gap-2 md:gap-16 items-center w-full justify-between md:w-auto md:justify-start">
@@ -88,7 +88,7 @@
 
 
             <!-- travel search section sharts here -->
-            <div class="w-[90%] sm:w-[80%] lg:h-24 mt-4 bg-white cursor-pointer relative bottom-7 sm:bottom-0 flex flex-col lg:flex-row rounded-3xl overflow-hidden">
+            <div class="w-[90%] sm:w-[80%] lg:h-24 mt-4 bg-white cursor-pointer relative bottom-7 sm:bottom-0 flex flex-col lg:flex-row rounded-3xl overflow-hidden hover:drop-shadow-lg">
                 <!-- travel search left side  -->
                 <div class="h-full flex flex-col sm:flex-row items-center justify-center lg:w-1/2">
                     <div class="h-full border-b sm:border-r border-gray-300 w-full md:w-[50%] sm:w-auto">
@@ -137,7 +137,7 @@
             <div class="w-full md:w-[80%] md:p-8 flex flex-col gap-6 bg-white md:rounded-3xl md:drop-shadow-xl">
                 <div class="flex justify-between px-4 md:px-0">
                     <h2 class="text-xl md:text-3xl text-gray-600">TRENDING OFFERS</h2>
-                    <button class="text-blue-600 py-1 font-semibold text-base  px-4 rounded-full border border-gray-500">View All</button>
+                    <button class="text-blue-600 py-1 font-semibold text-base  px-4 rounded-full border border-gray-500 hover:shadow-lg">View All</button>
                 </div>
                 <div class="flex text-white gap-6 overflow-auto pl-4 md:pl-0">
 
@@ -279,15 +279,16 @@
 
 
     <!-- --------------------- other services section starts here ----------------------  -->
-    <section class="flex justify-center bg-white mb-8">
-        <div class="flex w-full md:w-[80%] max-w-[1300px] justify-between">
+    <section class="flex justify-center bg-white mt-12 mb-8 md:mt-0">
+        <div class="flex w-full mx-6 md:mx-0 md:w-[80%] max-w-[1300px] justify-between">
             <!-- left side content section starts here  -->
-            <div class="w-1/2">
+            <div class="w-full lg:w-1/2 flex flex-col justify-between items-center md:items-start">
+            <div>
                 <!-- heading  -->
-                <h1 class="text-[2.5rem]">NOW, <span class="font-bold">GET MORE THAN JUST BUS</span> TICKETS WITH REDBUS!</h1>
+                <h1 class="text-2xl sm:text-3xl text-center md:text-left md:text-[2.5rem]">NOW, <span class="font-bold">GET MORE THAN JUST BUS</span> TICKETS WITH REDBUS!</h1>
 
                 <!-- left side nav buttons  -->
-                <div class="w-[480px] h-14 flex items-center border-b border-gray-200 justify-between my-6">
+                <div class="w-full md:w-[480px] h-14 flex items-center border-b border-gray-200 justify-center text-left md:justify-between my-6">
                     <button class="h-full flex gap-3 px-4 py-[0.8rem] rounded-t-lg items-center border-b-2 border-main-color">
                         <svg class="fill-main-color h-full" viewBox="0 0 35 20">
                             <path d="M16.3867 14.881L16.3002 14.7492L16.1873 14.8594C15.6684 15.365 15.0775 15.7819 14.4314 16.0982C13.8116 16.4026 13.1535 16.6086 12.4737 16.7117V10.6877L17.0328 6.13978C17.3091 6.53514 17.5421 6.96166 17.727 7.40495L17.7847 7.54153L17.9144 7.46725L17.9384 7.45288C17.9528 7.44329 17.9697 7.4361 17.9841 7.42652C18.5125 7.13418 19.0962 6.94249 19.7208 6.85383L19.8865 6.82987L19.8241 6.67652C19.1635 5.02077 18.0345 3.60942 16.5572 2.59105C15.0439 1.55112 13.2736 1 11.4336 1C9.59355 1 7.84242 1.54393 6.33871 2.57668C4.86863 3.58307 3.73964 4.98243 3.07186 6.6238L3.0022 6.79633L3.18716 6.80351C3.86695 6.83466 4.50351 6.97604 5.08001 7.22764L5.19771 7.27796L5.25056 7.16054C5.4163 6.80351 5.61327 6.46086 5.83667 6.13738L10.3958 10.6853V16.7093C9.15877 16.52 7.99856 15.9928 7.03532 15.1781L6.93203 15.0919L6.84795 15.1973C6.47563 15.6645 6.01683 16.0503 5.48596 16.3427C5.44753 16.3642 5.4091 16.3858 5.35865 16.4097L5.19291 16.496L5.32983 16.623C7.00169 18.1565 9.16838 19 11.4336 19C13.814 19 16.0624 18.0799 17.7655 16.405L17.8832 16.2899L17.7439 16.2013C17.201 15.861 16.7446 15.4153 16.3867 14.8762V14.881ZM15.606 4.63978L11.436 8.79952L7.26351 4.63978C7.82801 4.20128 8.45255 3.85623 9.12274 3.61422C9.86258 3.34585 10.6409 3.21166 11.4336 3.21166C12.2262 3.21166 13.0045 3.34824 13.7444 3.61422C14.4146 3.85623 15.0391 4.20128 15.6036 4.63978H15.606Z"/>
@@ -333,9 +334,9 @@
                     </div>
                 </div>
                 </div>
-
+            </div>   
                 <!-- main button  -->
-                <button class="font-bold text-base gap-3 bg-main-color text-white px-5 py-3 flex items-center rounded-xl mt-12">Book Cab / Bus Rental
+                <button class="font-bold text-base gap-3 bg-main-color text-white px-5 max-w-xs py-3 flex items-center rounded-xl mt-12">Book Cab / Bus Rental
                     <i class="fa-solid fa-arrow-right-long text-2xl"></i>
                 </button>
 
@@ -345,8 +346,27 @@
 
 
             <!-- right side image section starts here -->
-            <div class="relative w-1/2">
-                <img src="./assets/other-service-bg.svg" alt="">
+            <div class="relative w-1/2 h-full hidden lg:inline-block">
+                <svg width="564" height="100%" viewBox="0 0 564 628" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <mask id="mask0_3718_198646" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="12" y="0" width="552" height="628">
+                    <path d="M524 0H205.447C187.492 0 171.738 11.9634 166.916 29.2584L14.1456 577.258C7.03787 602.755 26.2081 628 52.6764 628H524C546.091 628 564 610.091 564 588V40C564 17.9086 546.091 0 524 0Z" fill="#F1F1F1"/>
+                    </mask>
+                    <g mask="url(#mask0_3718_198646)">
+                    <path opacity="0.4" d="M-101.178 -214.402H564.553V755.535H-101.178V-214.402Z" fill="url(#paint0_linear_3718_198646)"/>
+                    </g>
+                    <defs>
+                    <linearGradient id="paint0_linear_3718_198646" x1="383.275" y1="633.313" x2="-81.5339" y2="-44.2445" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#BF849A"/>
+                    <stop offset="0.0758" stop-color="#C48BA0"/>
+                    <stop offset="0.1898" stop-color="#D1A0B1"/>
+                    <stop offset="0.3271" stop-color="#E6C2CC"/>
+                    <stop offset="0.461" stop-color="#FFE9EC"/>
+                    <stop offset="0.6918" stop-color="#D5D7F0"/>
+                    <stop offset="0.8876" stop-color="#B9CAF3"/>
+                    <stop offset="1" stop-color="#AEC5F4"/>
+                    </linearGradient>
+                    </defs>
+                    </svg>
                 <img class="absolute bottom-24 right-16 scale-125 z-10" src="./assets/all-rides.svg" alt="">
             </div>
             <!-- right side image section ends here  -->
