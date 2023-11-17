@@ -88,19 +88,19 @@
 
 
             <!-- travel search section sharts here -->
-            <div class="w-[80%] lg:h-24 mt-4 bg-white cursor-pointer flex flex-col lg:flex-row rounded-3xl overflow-hidden">
+            <div class="w-[90%] sm:w-[80%] lg:h-24 mt-4 bg-white cursor-pointer relative bottom-7 sm:bottom-0 flex flex-col lg:flex-row rounded-3xl overflow-hidden">
                 <!-- travel search left side  -->
                 <div class="h-full flex flex-col sm:flex-row items-center justify-center lg:w-1/2">
-                    <div class="h-full border-b sm:border-r border-gray-300 w-full sm:w-auto">
+                    <div class="h-full border-b sm:border-r border-gray-300 w-full md:w-[50%] sm:w-auto">
                         <div class="px-7 py-8 flex items-center h-full gap-3">
                             <i class="fa-solid fa-bus-simple text-gray-500 text-2xl"></i>
                             <input class="outline-none w-full" type="text" name="" id="" placeholder="From">
                         </div>
                     </div>
-                    <div class="w-10 h-10 bg-white rounded-full grid place-content-center absolute border border-gray-300">
+                    <div class="w-10 h-10 bg-white rounded-full  grid place-content-center absolute border border-gray-300">
                         <i class="fa-solid fa-arrows-turn-to-dots text-gray-500 text-xl"></i>
                     </div>
-                    <div class="h-full border-b sm:border-r border-gray-300 w-full sm:w-auto">
+                    <div class="h-full border-b sm:border-r border-gray-300 w-full md:w-[50%] sm:w-auto">
                         <div class="px-7 py-8 flex items-center h-full gap-3">
                             <i class="fa-solid fa-person-walking-luggage text-gray-500 text-2xl"></i>
                             <input class="outline-none w-full" type="text" name="" id="" placeholder="To">
@@ -132,17 +132,17 @@
 
 
     <!-- ------------------------------- offers section starts here -------------------- -->
-    <section>
+    <section class="flex relative md:bottom-[150px] justify-center">
         <div class="flex flex-col items-center w-full max-w-[1400px] py-6">
-            <div class="w-[80%] p-6 flex flex-col gap-6">
-                <div class="flex justify-between">
-                    <h2 class="text-3xl text-gray-600">TRENDING OFFERS</h2>
-                    <button class="text-blue-600 py-1 font-semibold text-lg px-4 rounded-full border border-gray-500">View All</button>
+            <div class="w-full md:w-[80%] md:p-8 flex flex-col gap-6 bg-white md:rounded-3xl md:drop-shadow-xl">
+                <div class="flex justify-between px-4 md:px-0">
+                    <h2 class="text-xl md:text-3xl text-gray-600">TRENDING OFFERS</h2>
+                    <button class="text-blue-600 py-1 font-semibold text-base  px-4 rounded-full border border-gray-500">View All</button>
                 </div>
-                <div class="flex text-white gap-6">
+                <div class="flex text-white gap-6 overflow-auto pl-4 md:pl-0">
 
                     <!-- offer card one  -->
-                    <div class="h-36 w-64 rounded-xl bg-gradient-to-r from-blue-800 to-blue-500 flex p-3">
+                    <div class="h-36 w-64 rounded-xl bg-gradient-to-r from-blue-800 to-blue-500 flex p-3 cursor-pointer flex-shrink-0">
                         <div class="h-full grid place-content-center px-2">
                             <img class="rounded-full w-24" src="./assets/offer1.png" alt="">
                         </div>
@@ -158,7 +158,55 @@
                     </div>
 
                     <!-- offer card two  -->
-                    <div class="h-36 w-64 rounded-xl bg-gradient-to-r from-blue-800 to-blue-500 flex p-3">
+                    <div class="h-36 w-64 rounded-xl bg-gradient-to-r from-red-800 to-red-500 flex p-3 cursor-pointer flex-shrink-0">
+                        <div class="h-full grid place-content-center px-2">
+                            <img class="rounded-full w-24" src="./assets/offer2.png" alt="">
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <p class="text-xs px-1 py-[1px] bg-[#ffffff4c] rounded-full w-10 grid place-content-center">BUS</p>
+                            <h3 class="font-bold text-base leading-5">Save up to Rs 300 on AP, TS routes</h3>
+                            <p class="text-xs">Valid till 30 Nov</p>
+                            <div class="flex gap-3 items-center">
+                                <p class="grid place-content-center bg-[#ffffff4c] h-6 font-semibold px-2 rounded-sm border border-dashed border-white text-xs">SUPERHIT</p>
+                                <i class="fa-regular fa-copy text-xl"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- offer card three  -->
+                    <div class="h-36 w-64 rounded-xl bg-gradient-to-r from-green-800 to-green-500 flex p-3 cursor-pointer flex-shrink-0">
+                        <div class="h-full grid place-content-center px-2">
+                            <img class="rounded-full w-24" src="./assets/offer3.png" alt="">
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <p class="text-xs px-1 py-[1px] bg-[#ffffff4c] rounded-full w-10 grid place-content-center">BUS</p>
+                            <h3 class="font-bold text-base leading-5">Save up to Rs 300 on RJ,MH, Goa, MP,</h3>
+                            <p class="text-xs">Valid till 30 Nov</p>
+                            <div class="flex gap-3 items-center">
+                                <p class="grid place-content-center bg-[#ffffff4c] h-6 font-semibold px-2 rounded-sm border border-dashed border-white text-xs">BUS300</p>
+                                <i class="fa-regular fa-copy text-xl"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- offer card four  -->
+                    <div class="h-36 w-64 rounded-xl bg-gradient-to-r from-sky-800 to-sky-500 flex p-3 cursor-pointer flex-shrink-0">
+                        <div class="h-full grid place-content-center px-2">
+                            <img class="rounded-full w-24" src="./assets/offer4.png" alt="">
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <p class="text-xs px-1 py-[1px] bg-[#ffffff4c] rounded-full w-10 grid place-content-center">BUS</p>
+                            <h3 class="font-bold text-base leading-5">Save up to Rs 200 in Kerala routes.</h3>
+                            <p class="text-xs">Valid till 30 Nov</p>
+                            <div class="flex gap-3 items-center">
+                                <p class="grid place-content-center bg-[#ffffff4c] h-6 font-semibold px-2 rounded-sm border border-dashed border-white text-xs">RBTRIP</p>
+                                <i class="fa-regular fa-copy text-xl"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- offer card one  -->
+                    <div class="h-36 w-64 rounded-xl bg-gradient-to-r from-blue-800 to-blue-500 flex p-3 cursor-pointer flex-shrink-0">
                         <div class="h-full grid place-content-center px-2">
                             <img class="rounded-full w-24" src="./assets/offer1.png" alt="">
                         </div>
@@ -173,6 +221,53 @@
                         </div>
                     </div>
 
+                    <!-- offer card two  -->
+                    <div class="h-36 w-64 rounded-xl bg-gradient-to-r from-red-800 to-red-500 flex p-3 cursor-pointer flex-shrink-0">
+                        <div class="h-full grid place-content-center px-2">
+                            <img class="rounded-full w-24" src="./assets/offer2.png" alt="">
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <p class="text-xs px-1 py-[1px] bg-[#ffffff4c] rounded-full w-10 grid place-content-center">BUS</p>
+                            <h3 class="font-bold text-base leading-5">Save up to Rs 300 on AP, TS routes</h3>
+                            <p class="text-xs">Valid till 30 Nov</p>
+                            <div class="flex gap-3 items-center">
+                                <p class="grid place-content-center bg-[#ffffff4c] h-6 font-semibold px-2 rounded-sm border border-dashed border-white text-xs">SUPERHIT</p>
+                                <i class="fa-regular fa-copy text-xl"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- offer card three  -->
+                    <div class="h-36 w-64 rounded-xl bg-gradient-to-r from-green-800 to-green-500 flex p-3 cursor-pointer flex-shrink-0">
+                        <div class="h-full grid place-content-center px-2">
+                            <img class="rounded-full w-24" src="./assets/offer3.png" alt="">
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <p class="text-xs px-1 py-[1px] bg-[#ffffff4c] rounded-full w-10 grid place-content-center">BUS</p>
+                            <h3 class="font-bold text-base leading-5">Save up to Rs 300 on RJ,MH, Goa, MP,</h3>
+                            <p class="text-xs">Valid till 30 Nov</p>
+                            <div class="flex gap-3 items-center">
+                                <p class="grid place-content-center bg-[#ffffff4c] h-6 font-semibold px-2 rounded-sm border border-dashed border-white text-xs">BUS300</p>
+                                <i class="fa-regular fa-copy text-xl"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- offer card four  -->
+                    <div class="h-36 w-64 rounded-xl bg-gradient-to-r from-sky-800 to-sky-500 flex p-3 cursor-pointer flex-shrink-0">
+                        <div class="h-full grid place-content-center px-2">
+                            <img class="rounded-full w-24" src="./assets/offer4.png" alt="">
+                        </div>
+                        <div class="flex flex-col gap-2">
+                            <p class="text-xs px-1 py-[1px] bg-[#ffffff4c] rounded-full w-10 grid place-content-center">BUS</p>
+                            <h3 class="font-bold text-base leading-5">Save up to Rs 200 in Kerala routes.</h3>
+                            <p class="text-xs">Valid till 30 Nov</p>
+                            <div class="flex gap-3 items-center">
+                                <p class="grid place-content-center bg-[#ffffff4c] h-6 font-semibold px-2 rounded-sm border border-dashed border-white text-xs">RBTRIP</p>
+                                <i class="fa-regular fa-copy text-xl"></i>
+                            </div>
+                        </div>
+                    </div>
 
 
                 </div>
