@@ -568,6 +568,22 @@ video {
   top: 0px;
 }
 
+.left-6{
+  left: 1.5rem;
+}
+
+.left-10{
+  left: 2.5rem;
+}
+
+.right-2{
+  right: 0.5rem;
+}
+
+.bottom-12{
+  bottom: 3rem;
+}
+
 .z-10{
   z-index: 10;
 }
@@ -625,6 +641,10 @@ video {
   margin-bottom: 2rem;
 }
 
+.mt-11{
+  margin-top: 2.75rem;
+}
+
 .mt-12{
   margin-top: 3rem;
 }
@@ -649,8 +669,20 @@ video {
   margin-top: 2rem;
 }
 
-.mt-11{
-  margin-top: 2.75rem;
+.mt-5{
+  margin-top: 1.25rem;
+}
+
+.mb-0{
+  margin-bottom: 0px;
+}
+
+.mb-2{
+  margin-bottom: 0.5rem;
+}
+
+.mb-14{
+  margin-bottom: 3.5rem;
 }
 
 .inline-block{
@@ -707,6 +739,10 @@ video {
 
 .h-full{
   height: 100%;
+}
+
+.h-32{
+  height: 8rem;
 }
 
 .w-1\/2{
@@ -773,6 +809,22 @@ video {
   width: 100%;
 }
 
+.w-40{
+  width: 10rem;
+}
+
+.w-36{
+  width: 9rem;
+}
+
+.w-44{
+  width: 11rem;
+}
+
+.w-32{
+  width: 8rem;
+}
+
 .max-w-\[1300px\]{
   max-width: 1300px;
 }
@@ -833,6 +885,10 @@ video {
   align-items: center;
 }
 
+.justify-end{
+  justify-content: flex-end;
+}
+
 .justify-center{
   justify-content: center;
 }
@@ -871,10 +927,6 @@ video {
 
 .gap-8{
   gap: 2rem;
-}
-
-.gap-10{
-  gap: 2.5rem;
 }
 
 .overflow-auto{
@@ -942,6 +994,11 @@ video {
   border-style: dashed;
 }
 
+.border-gray-100{
+  --tw-border-opacity: 1;
+  border-color: rgb(243 244 246 / var(--tw-border-opacity));
+}
+
 .border-gray-200{
   --tw-border-opacity: 1;
   border-color: rgb(229 231 235 / var(--tw-border-opacity));
@@ -972,16 +1029,6 @@ video {
   border-color: rgb(156 163 175 / var(--tw-border-opacity));
 }
 
-.border-red-600{
-  --tw-border-opacity: 1;
-  border-color: rgb(220 38 38 / var(--tw-border-opacity));
-}
-
-.border-gray-100{
-  --tw-border-opacity: 1;
-  border-color: rgb(243 244 246 / var(--tw-border-opacity));
-}
-
 .bg-\[\#ffffff4c\]{
   background-color: #ffffff4c;
 }
@@ -1001,14 +1048,14 @@ video {
   background-color: rgb(216 78 85 / var(--tw-bg-opacity));
 }
 
-.bg-white{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-slate-100{
   --tw-bg-opacity: 1;
   background-color: rgb(241 245 249 / var(--tw-bg-opacity));
+}
+
+.bg-white{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .bg-\[url\(\'\.\/assets\/appInstallbg\.svg\'\)\]{
@@ -1112,16 +1159,8 @@ video {
   padding: 1.25rem;
 }
 
-.p-8{
-  padding: 2rem;
-}
-
-.p-6{
-  padding: 1.5rem;
-}
-
-.p-7{
-  padding: 1.75rem;
+.p-2{
+  padding: 0.5rem;
 }
 
 .px-1{
@@ -1284,6 +1323,10 @@ video {
   font-weight: 600;
 }
 
+.font-thin{
+  font-weight: 100;
+}
+
 .leading-5{
   line-height: 1.25rem;
 }
@@ -1300,6 +1343,11 @@ video {
 .text-black{
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-blue-500{
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
 }
 
 .text-blue-600{
@@ -1342,9 +1390,9 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-blue-500{
+.text-gray-300{
   --tw-text-opacity: 1;
-  color: rgb(59 130 246 / var(--tw-text-opacity));
+  color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
 .opacity-0{
@@ -1373,14 +1421,6 @@ video {
 ::-webkit-scrollbar{
   background: white;
   width: 0;
-}
-
-.hover\:border-b-2:hover{
-  border-bottom-width: 2px;
-}
-
-.hover\:border-b-4:hover{
-  border-bottom-width: 4px;
 }
 
 .hover\:border-b-\[3px\]:hover{
@@ -1492,6 +1532,10 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:static{
+    position: static;
+  }
+
   .md\:bottom-\[150px\]{
     bottom: 150px;
   }
@@ -1504,6 +1548,10 @@ video {
   .md\:my-40{
     margin-top: 10rem;
     margin-bottom: 10rem;
+  }
+
+  .md\:mb-12{
+    margin-bottom: 3rem;
   }
 
   .md\:mb-14{
@@ -1522,12 +1570,8 @@ video {
     margin-top: 3.5rem;
   }
 
-  .md\:mb-12{
-    margin-bottom: 3rem;
-  }
-
-  .md\:inline-block{
-    display: inline-block;
+  .md\:mt-8{
+    margin-top: 2rem;
   }
 
   .md\:flex{
@@ -1578,6 +1622,10 @@ video {
     justify-content: space-between;
   }
 
+  .md\:gap-10{
+    gap: 2.5rem;
+  }
+
   .md\:gap-16{
     gap: 4rem;
   }
@@ -1586,20 +1634,16 @@ video {
     gap: 1rem;
   }
 
-  .md\:gap-10{
-    gap: 2.5rem;
-  }
-
   .md\:rounded-3xl{
     border-radius: 1.5rem;
   }
 
-  .md\:p-8{
-    padding: 2rem;
-  }
-
   .md\:p-7{
     padding: 1.75rem;
+  }
+
+  .md\:p-8{
+    padding: 2rem;
   }
 
   .md\:px-0{
